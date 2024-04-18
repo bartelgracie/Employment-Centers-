@@ -8,6 +8,7 @@
 - LODES Dataset: https://lehd.ces.census.gov/data/#lodes
 - *Stuart Insert Link for OpenStreetMap Data Here*
 - Pandana for Network Analysis: https://udst.github.io/pandana/network.html
+- GTFS for San Diego county area, from SANDAG: https://sdgis-sandag.opendata.arcgis.com/maps/27d1f515e1db4d939e85bdac7523fb6a/explore?location=32.829027%2C-116.902158%2C10.07
 ## 5 Sources relating to Project: 
 - Our analysis will emphasize Regionalization, as described here https://geographicdata.science/book/notebooks/10_clustering_and_regionalization.html#regionalization-spatially-constrained-hierarchical-clustering
 - LODES Data will be accessed using GEOSNAP's Datastore: https://pypi.org/project/geosnap/
