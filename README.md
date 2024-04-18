@@ -14,3 +14,4 @@
 - Temporal variability in transit-based accessibility to super markets https://doi.org/10.1016/j.apgeog.2014.06.012
 - Identifying public transport gaps using time-dependent accessibility levels https://doi.org/10.1016/j.jtrangeo.2015.09.008
 - The importance of recurring public transport delays for accessibility and mode choice https://doi.org/10.1016/j.jtrangeo.2024.103796
+- Foundational Isochrone Information: https://www.mapbox.com/insights/isochrones
