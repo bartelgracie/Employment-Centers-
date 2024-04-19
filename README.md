@@ -6,7 +6,8 @@
   ### May 6-10: Present Project to class on May 7 and Finalize tool to be usable and searchable. 
 ## Tentative Data for Employment Centers: 
 - LODES Dataset: https://lehd.ces.census.gov/data/#lodes
-- *Stuart Insert Link for OpenStreetMap Data Here*
+- Open Street Map (found by Stuart): https://www.openstreetmap.org/relation/396482
+-   https://download.geofabrik.de/north-america/us/california/socal.html
 - Pandana for Network Analysis: https://udst.github.io/pandana/network.html
 - GTFS for San Diego county area, from SANDAG: https://sdgis-sandag.opendata.arcgis.com/maps/27d1f515e1db4d939e85bdac7523fb6a/explore?location=32.829027%2C-116.902158%2C10.07
 - GTFS from SDMTS, both Scheduled & Realtime: https://www.sdmts.com/business-center/app-developers
