@@ -1,4 +1,7 @@
 # Employment-Centers 
+## Instructions: run lodes.ipynb before any others and then history > demographics > specialization > transit, all other files do not need to be run. Each notebook has it's own explanations and instructions as well. 
+
+# Project Proposal
 ## Timeline for project:
   ### April 18: Project Proposal Due - Identify data sources and literature 
   ### April 22-26: Use LODES to identify geographic concentrations of employment and Calculate pedestrian and transit accessibility measures using Open-StreetMap and GTFS data
