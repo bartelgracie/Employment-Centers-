@@ -7,6 +7,7 @@ This repository is an analytical toolkit composed of jupyter notebooks written i
 This notebook has been set-up to rely on data acquired through GeoSNAP.
 The get_lodes function is used to select for the specific locational and temporal area of study.
 The notebook subsets the LODES data at an initial minimal threshold for employment centers at 4,000 total employees.
+
 The following notebooks perform analysis on the identified employment centers and can be run in any order:
 - “demographics.ipynb” - spatial demonstration of various demographic groups and other societal indicators for residents and employees of employment centers 
 - “Transit_Accessibility.ipynb” - A spatial exploration of transit stops in and around employment centers with multiple interactive maps for visualization
