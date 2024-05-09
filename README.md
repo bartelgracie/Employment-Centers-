@@ -3,15 +3,15 @@
 This repository is an analytical toolkit composed of jupyter notebooks written in python that identifies, describes, and analyzes the critical employment centers in the San Diego region. 
 
 ## Setup Instructions
-Lodes.ipynb - This notebook pulls in LODES data to identify employment centers and create “lodes.parquet”, which is used across the other notebooks. Please run this notebook first to identify employment centers and ensure access to “lodes.parquet”.
+- Lodes.ipynb - This notebook pulls in LODES data to identify employment centers and create “lodes.parquet”, which is used across the other notebooks. Please run this notebook first to identify employment centers and ensure access to “lodes.parquet”.
 This notebook has been set-up to rely on data acquired through GeoSNAP.
 The get_lodes function is used to select for the specific locational and temporal area of study.
 The notebook subsets the LODES data at an initial minimal threshold for employment centers at 4,000 total employees.
 The following notebooks perform analysis on the identified employment centers and can be run in any order:
-“demographics.ipynb” - spatial demonstration of various demographic groups and other societal indicators for residents and employees of employment centers 
-“Transit_Accessibility.ipynb” - A spatial exploration of transit stops in and around employment centers with multiple interactive maps for visualization
-“history.ipynb” - Analysis of historical LODES data
-“specialization.ipynb” 
+- “demographics.ipynb” - spatial demonstration of various demographic groups and other societal indicators for residents and employees of employment centers 
+- “Transit_Accessibility.ipynb” - A spatial exploration of transit stops in and around employment centers with multiple interactive maps for visualization
+- “history.ipynb” - Analysis of historical LODES data
+- “specialization.ipynb” 
 Measures the amount of employees in each industry sector as well as overall diversity of industries within employment centers
 Certain columns renamed or dropped for convenience and readability
 WARNING: examining the industry sector specialization of highly populous employment centers may not reveal LODES areas with high specialization, but low total employees; adjust the EC threshold in the “lodes.ipynb” to suit your analysis goals.
@@ -20,12 +20,12 @@ WARNING: examining the industry sector specialization of highly populous employm
 
 All data used in this project is open source and freely available for use, sharing, and modification.
 
-LODES: https://lehd.ces.census.gov/data/#lodes
-California Transit Stops: https://data.ca.gov/dataset/ca-transit-stops
-GTFS: https://gtfs.org/
-GeoSNAP: https://github.com/oturns/geosnap
-Open Street Map: https://www.openstreetmap.org/relation/396482
-Pandana for Network Analysis: https://udst.github.io/pandana/network.html
+- LODES: https://lehd.ces.census.gov/data/#lodes
+- California Transit Stops: https://data.ca.gov/dataset/ca-transit-stops
+- GTFS: https://gtfs.org/
+- GeoSNAP: https://github.com/oturns/geosnap
+- Open Street Map: https://www.openstreetmap.org/relation/396482
+- Pandana for Network Analysis: https://udst.github.io/pandana/network.html
 ## Usage:
 This repository can be used to learn more about employment centers in San Diego, or adapted to analyze employment centers in other regions. Using this repository, information about population demographics, employment industry specialization, employment center spatial changes over time, and employment center transit accessibility are all readily available and displayed visually. To adapt this repository to analyze other regions, LODES data for that region will need to be imported, new transit data found, and isochrone networks will need to be attuned to the new region.
 
